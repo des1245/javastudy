@@ -1,0 +1,37 @@
+package ex01_user_type;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		//메인 클래스를 메인하는곳
+		
+		//클래스 Person을 타입으로 하는 "객체"를 생성합니다.
+		/*
+		 * 1.타입:Person
+		 * 2.객체:p1
+		 */
+		Person p1 = new Person();
+		
+		//클래스에 포함된 멤버(필드,메소드)는 마침표(.)를
+		//이용해서 호출합니다.
+		System.out.println(p1.name);
+		System.out.println(p1.age);
+		System.out.println(p1.height);
+		System.out.println(p1.gender); //실제로 안보이는 널문자 하지만 존재하고있는것
+		System.out.println(p1.isKorean);
+		//널값, 0,0.0,펄스값 암기해두는게 좋다. 여기서 캐릭터(char)은 잘쓴다고 강사님께서 말씀해주심
+		
+		//Person은 reference type입니다.
+		System.out.println(p1); 
+		//new person()으로 생성된 객체의 "주소(참조)"가 저장되어 있습니다.
+		//ex01_user_type.Person@1554909b 클래스 타입의 주소 알려주고잇는것
+		//
+		//java.lang.util 이거랑 비슷하다.
+		
+		Person p2 =p1; //p2는 객체p1의 "주소(참조)"를 그대로 가지고 있습니다.
+		System.out.println(p2);
+		p2.name ="e";
+		System.out.println(p2.name);
+		System.out.println(p1.name);
+	}
+}

@@ -1,0 +1,12 @@
+package ex02_method;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Person p =new Person(); //객체변수
+		
+		p.set("alice", 30, '여', false); //Person 클래스에서 셋 전달하는 인수 4개 
+		//a에는 이름 나이에는30 젠더는 성별 이즈코리안은 한국사람이 아닌지 맞는지 넣을것이다.
+	
+	}
+}

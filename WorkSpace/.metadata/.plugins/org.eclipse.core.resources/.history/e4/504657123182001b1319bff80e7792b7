@@ -1,0 +1,9 @@
+package ex03_overloading;
+
+public class Rectangle {
+
+	//field
+	int width; //너비
+	int height; //높이
+	
+}

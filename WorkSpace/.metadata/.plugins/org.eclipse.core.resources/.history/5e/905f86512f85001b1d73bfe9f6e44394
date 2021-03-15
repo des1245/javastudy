@@ -1,0 +1,25 @@
+package quiz07;
+
+public class Game {
+
+	//플레이어가 여러명 있을 수 있다.
+	//field
+
+	//비정상적인 방법
+	//private Player[] player =new Player[playerCount];
+	
+	//1.정상적인 방법
+	private Player[] player; //선언부분 -플레이어 클래스 겟터 세터 상관없이 플레이어들이 여러명이 저장된곳이다.
+	
+	//constructor
+	public Game(int playerCount) { //분리된 선언
+		player =new Player[playerCount];
+	}	
+	//method
+	public void setPlayer() {
+		String[] name = {"alice","david","brown","emily","james"};//초기화 선언을 줘서 임의로 지정
+		for(int i=0; i<player.length; i++) {
+			 //플레이어에 셋내임 이러한 처리방법 1
+		}
+	}
+}

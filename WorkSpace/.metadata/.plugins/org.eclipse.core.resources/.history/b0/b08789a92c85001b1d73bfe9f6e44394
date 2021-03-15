@@ -1,0 +1,24 @@
+package quiz07;
+
+public class Player {
+	
+	//field
+	private String name;
+	
+	//construct
+	public Player(String name) {
+		this.name =name;
+	}
+	//method
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int play() { //플레이어가 게임을 했을때
+	
+	}
+}

@@ -1,0 +1,15 @@
+package quiz06;
+
+public class Customer {
+
+	//field
+	private int customerBread;
+	private int customerMoney;
+	
+	//constructor
+	
+	//method
+	
+	//buy
+	
+}

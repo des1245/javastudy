@@ -1,0 +1,15 @@
+package Quiz05;
+
+public class Circle {
+	
+	//field
+	double radius; //반지름
+	
+	//method
+	void setRadius(double radius) {//레디어스 인수값 받아온것
+		this.radius =radius;
+	}
+	double getCircum() {
+		return 2 * Math.PI * Math.pow(radius, 2) ;
+	}
+}

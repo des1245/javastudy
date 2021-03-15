@@ -1,0 +1,10 @@
+package ex02_method;
+
+public class Person {
+	
+	// 필드
+	String name;
+	int age;
+	char gender;
+	boolean isKorean;
+}

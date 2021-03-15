@@ -1,0 +1,27 @@
+package ex02_method;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Person p =new Person(); //객체변수
+		
+		//매개변수 전달공간이 없고 출력방법 2
+		p.set("alice", 30, '여', false,170.5,70.5);
+		p.info(); //인수가 4개
+		
+		double bmi =p.getBMI();
+		System.out.println(bmi);
+		
+		/*
+		//매개변수 전달공안활용하여 출력방법1
+		//p.set("alice", 30, '여', false); //a에는 이름 나이에는30 젠더는 성별 이즈코리안은 한국사람이 아닌지 맞는지 넣을것이다.
+		//Person 클래스에서 셋 전달하는 필드 인수 4개를  메인으로 와서 p.set 저장 공간에 넣고 출력 
+		 
+		인수 저장공안 있을때 사용 하는 출력 부분
+		System.out.println(p.name);
+		System.out.println(p.age);
+		System.out.println(p.gender);
+		System.out.println(p.isKorean);
+		*/
+	}
+}

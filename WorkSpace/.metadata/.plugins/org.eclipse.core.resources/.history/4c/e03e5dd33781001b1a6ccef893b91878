@@ -1,0 +1,8 @@
+package ex01_random;
+
+public class Ex02_Math {
+//수학의 math클래스는  사용법을 많이 공부해두기!
+	public static void main(String[] args) {
+
+	}
+}

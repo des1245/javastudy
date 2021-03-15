@@ -1,0 +1,14 @@
+package Quiz06;
+
+public class Book {
+	
+	String  name;
+	String  wri;
+	int pri;
+	
+	Book(String name,String wri,int pri){
+		this.name=name;
+		this.wri=wri;
+		this.pri=pri;
+	}
+}

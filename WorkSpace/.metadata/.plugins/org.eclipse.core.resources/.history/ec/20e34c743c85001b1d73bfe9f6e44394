@@ -1,0 +1,11 @@
+package quiz09;
+
+public class Gun {
+	
+	//field
+	//총기모델
+	//들어가는 총알
+	private String model;
+	private int bulet;
+	private final int FULL_BULLET=6;
+}

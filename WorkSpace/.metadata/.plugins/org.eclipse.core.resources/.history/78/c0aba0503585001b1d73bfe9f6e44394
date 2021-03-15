@@ -1,0 +1,8 @@
+package quiz08;
+
+public class Singer {
+	
+	//field
+	private Stirng name;
+	private Song[] songs;
+}

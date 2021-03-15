@@ -1,0 +1,35 @@
+package ex02_method;
+/*
+ * 메소드(method)
+ * 1.구성
+ * 	 1)결과타입 -실행후의 결과가 무엇이냐 묻는것
+ * 	 2)메소드명
+ *   3)매개변수
+ * 2.정의
+ * 	 결과 타입 메소드명(매개변수){
+ *      메소드본문
+ *   }
+ * 
+ */
+public class Person {
+	
+	// 필드
+	String name;
+	int age;
+	char gender;
+	boolean isKorean;
+	
+	//method (field를 사용할 수 있는 함수)
+	//1.결과타입 :결과 값이 없다.(void)
+	//2.메소드명 : set
+	//3.매개변수 : 전달되는 인수가 없다.
+	//4.역할 : 전달되는 인수를 필드에 전달합니다.
+	
+	//역활에 매개변수를 인수를 정해보기 String n,int a,char g,boolean isK
+	void set(String n,int a,char g,boolean isK) { //스탠다드({) 이부분을 아래로 옮기지 말것 기본스탠다드 위치 쓰는게좋다.
+	name =n;  //매개변수를 각각의 필드에 전달해주기
+	age =a;
+	gender =g;
+	isKorean =isK;
+	}
+}

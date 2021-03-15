@@ -1,0 +1,17 @@
+package quiz02;
+
+//좌표 x랑 y
+public class Coord {
+	
+	//field
+	private int x;
+	private int y;
+	
+	
+	public Coord(int x,int y) {
+		this.x = x;
+		this.y = y;
+	}
+	public void 
+	
+}

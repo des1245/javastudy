@@ -1,0 +1,16 @@
+package ex03_overloading;
+
+public class Rectangle {
+
+	//field
+	int width; //너비
+	int height; //높이
+	
+	//method
+	void set(int w,int h) {
+		width =w;
+		height=h;
+	}
+	//void set(int w,int h)<-외부데이터를 받아서 전달해주면된다.
+	//           
+}

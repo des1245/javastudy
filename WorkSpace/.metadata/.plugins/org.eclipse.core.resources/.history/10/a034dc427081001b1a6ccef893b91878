@@ -1,0 +1,12 @@
+package ex03_api;
+
+public class Ex01_system {
+	public static void main(String[] args) {
+		
+		//1.시스템 종료
+		//System.exit(0); 이거 살려놓으면 아래거 실행이 안된다.
+		
+		//2. 현재 시간(타임스탬프) 알아내기
+		
+	}
+}

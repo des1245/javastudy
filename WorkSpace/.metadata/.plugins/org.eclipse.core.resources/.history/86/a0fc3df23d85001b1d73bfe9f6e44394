@@ -1,0 +1,11 @@
+package quiz09;
+
+import quiz04.Soldier;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		//군인 만들기
+		Soldier soldier = new Soldier("람보",3)//군인이 가지고 있는 총이 3개
+	}
+}

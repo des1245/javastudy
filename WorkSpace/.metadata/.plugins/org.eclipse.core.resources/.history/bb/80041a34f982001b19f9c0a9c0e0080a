@@ -1,0 +1,11 @@
+package quiz05;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		BankAccount me =new BankAccount("1111",10000); //통장 최초로 넣을때 넣은돈
+		BankAccount me =new BankAccount("9999",10000); 
+	}
+
+}

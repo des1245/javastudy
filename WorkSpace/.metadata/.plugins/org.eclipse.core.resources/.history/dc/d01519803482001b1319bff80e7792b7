@@ -1,0 +1,9 @@
+package Quiz04;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Book b1 =new Book();
+		b1.set("어린왕자","샛텍쥐베리",10000);
+	}
+}

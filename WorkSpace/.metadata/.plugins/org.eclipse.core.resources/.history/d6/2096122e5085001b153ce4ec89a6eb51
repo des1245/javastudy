@@ -1,0 +1,13 @@
+package quiz10;
+
+public class Student {
+
+	//field
+	private String name;
+	private int[] sores;	//점수들
+	private double average;	//평균
+	private char grade;	//학점(A~F)
+	private boolean isPass;	//합격유무(평균 60이상 "합격")ㄴ
+	
+	
+}

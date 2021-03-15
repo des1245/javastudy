@@ -1,0 +1,6 @@
+package quiz02;
+
+//좌표 y랑 x
+public class Coord {
+
+}

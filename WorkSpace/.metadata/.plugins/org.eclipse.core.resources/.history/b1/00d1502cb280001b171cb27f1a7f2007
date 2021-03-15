@@ -1,0 +1,11 @@
+package ex02_2d_array;
+
+//5.영한 사전
+//
+public class Quiz05 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

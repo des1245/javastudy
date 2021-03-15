@@ -1,0 +1,9 @@
+package ex02_method;
+
+public class Person {
+	
+	String name;
+	int age;
+	char gender;
+	boolean isKorean;
+}

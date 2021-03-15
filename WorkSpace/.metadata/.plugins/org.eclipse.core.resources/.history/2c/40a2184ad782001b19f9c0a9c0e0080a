@@ -1,0 +1,7 @@
+package quiz01;
+
+public class Watch {
+	private int Hour;
+	private int Minute;
+	private int Second;
+}

@@ -1,0 +1,10 @@
+package quiz10;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		String[] name = {"블레드","짱구","타요","띠띠뽀","자두"};
+		//학생의 이름
+	}
+}

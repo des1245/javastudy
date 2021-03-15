@@ -1,0 +1,14 @@
+package ex02_2d_array;
+/*
+ * 2차원 배열
+ * 1.2차원 배열은 "테이블(표)" 형태로 이해하면 됩니다.
+ * 2.고정형 2차원 배열과 가변형 2차원 배열이 있습니다.
+ * 3.선언
+ *   int[][] a= new int[3][2];  //3행 2열
+ */
+public class Ex01_2d_array {
+
+	public static void main(String[] args) {
+
+	}
+}

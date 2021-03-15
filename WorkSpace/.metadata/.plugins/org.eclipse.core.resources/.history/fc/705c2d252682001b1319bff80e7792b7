@@ -1,0 +1,9 @@
+package ex01_user_type;
+
+public class note2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}

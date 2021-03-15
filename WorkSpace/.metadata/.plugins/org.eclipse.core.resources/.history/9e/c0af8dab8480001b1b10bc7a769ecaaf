@@ -1,0 +1,21 @@
+package ex01_array;
+
+import java.util.Scanner;
+
+//3.성적 관리 프로그램
+//학생들의 점수를 입력 받아서
+//평균, 최대값,최소값 점수를 출력
+
+public class Quiz03 {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		String[] students ={"타요","브레드","스폰지밥",""};
+		//학생의 길이가 스코어 길이에서 자동으로 변환 돼기 때문이다. 학생에서 하나지우면 배열길이 3되고 
+		//추가하면 배열길이 4 된다.
+		int[] scores = new int[students.length];
+		System.out.println("성적 입력 >>>");
+		scores = sc.nextInt();
+	}
+}

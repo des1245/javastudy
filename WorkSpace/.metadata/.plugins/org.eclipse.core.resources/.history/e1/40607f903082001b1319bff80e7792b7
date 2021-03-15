@@ -1,0 +1,16 @@
+package ex03_overloading;
+
+
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		//직사각형을 만들어 봅니다.
+		Rectangle nemo1 = new Rectangle();
+		
+		nemo1.setb
+		//넓이 - 높이 | 를 호출해서 
+		
+	}
+}

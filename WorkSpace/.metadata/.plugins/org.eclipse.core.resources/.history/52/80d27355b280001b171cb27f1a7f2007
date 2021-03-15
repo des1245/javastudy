@@ -1,0 +1,16 @@
+package ex02_2d_array;
+/*
+5.영한 사전
+"영어 단어"와 "의미"를 배열에 저장해 두고,
+묻고 답하는 프로그램
+봄을 영어로 하면?  >>>spring
+정답
+여름을 영어로 하면? >>>
+*/
+public class Quiz05 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

@@ -1,0 +1,7 @@
+package Quiz04;
+
+public class Book {
+	String name;
+	
+
+}

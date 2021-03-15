@@ -1,0 +1,25 @@
+package quiz06;
+
+public class Customer {
+
+	//field
+	private int Bread;
+	private int Money;
+	private Bakery bakery1;
+	
+	//constructor
+	public Customer() {
+		this.Bread =Bread;
+		this.Money =Money;
+	}
+	public int buy(bakery1,int Money,int Bread) {
+		if() {
+			
+		}
+	}
+	
+	//method
+	
+	//buy 출력 구매
+	
+}

@@ -1,0 +1,24 @@
+package quiz08;
+
+public class Singer {
+	
+	//field
+	private String name;
+	private Song[] songs;
+	private int idx;
+	
+	//constructor
+	public Singer(String name,int songCount) {
+		//송카운트 노래갯수를 지정하는 방식 최대 10개를 가질수있는것
+		this.name = name;
+		this.songs =new Song[songCount];
+	}
+	//method
+	public void addSong(S) { //
+		songs[idx++]=song;//최초 가수가 저장되는곳
+	}
+	public void info() {
+		//가수명, 노래목록
+		
+	}
+}

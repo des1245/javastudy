@@ -1,0 +1,12 @@
+package quiz07;
+
+public class Player {
+	
+	//field
+	private String name;
+	
+	//construct
+	public Player(String name) {
+		this.name =name
+	}
+}

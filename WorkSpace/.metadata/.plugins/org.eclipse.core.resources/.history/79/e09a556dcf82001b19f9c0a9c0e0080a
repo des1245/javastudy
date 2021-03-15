@@ -1,0 +1,8 @@
+package ex07_recursive;
+
+public class SayHello {
+	private void say() {
+		System.out.println();
+		say(); //재귀적 호출
+	}
+}

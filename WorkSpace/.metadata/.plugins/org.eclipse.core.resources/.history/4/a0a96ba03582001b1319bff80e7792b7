@@ -1,0 +1,18 @@
+package Quiz04;
+
+public class Book {
+	String name;
+	String name1;
+	int price;
+	void set(String n,String n1,int p) {
+		if(n.equals("어린왕자")) {
+			
+		}
+		name =n;
+		name1=n1;
+		price =p;
+	}
+	void set(int n) {
+		set(n,n,n);
+	}
+}

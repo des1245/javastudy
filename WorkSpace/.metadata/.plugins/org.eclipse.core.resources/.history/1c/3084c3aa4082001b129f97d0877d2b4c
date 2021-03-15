@@ -1,0 +1,10 @@
+package ex04_this;
+
+public class Car {
+
+	//field
+	String model;
+	String manuf;
+	int price;
+	
+}

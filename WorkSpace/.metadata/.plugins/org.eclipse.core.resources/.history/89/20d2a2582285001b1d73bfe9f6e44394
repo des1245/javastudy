@@ -1,0 +1,15 @@
+package quiz06;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Bakery bakery1 =new Bakery(100,1000,10000);
+		//빵100개,가격1000원,자본금10000원
+		Bakery bakery2 =new Bakery(50,500,10000);
+		//빵50개,가격500원,자본금10000원
+		
+		Customer customer = new Customer(20000);
+		//가진돈 2만원 
+		
+	}
+}

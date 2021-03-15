@@ -1,0 +1,22 @@
+package quiz01;
+
+public class Watch {
+	private int hour;
+	private int minute;
+	private int second;
+	
+	//constructor
+	public Watch(int hour, int minute,int second) {
+		this.hour =hour;
+		this.minute=minute;
+		this.second=second;
+	}
+	//method
+	public void addHour(int hour) {
+		this.hour+=hour;
+		hour %= 24; // hour지금 이값에 들어간 나머지가 1인것 = hour(25) % 24
+	}
+	public void addMinute(int minute) { //1시간 61
+		
+	}
+}

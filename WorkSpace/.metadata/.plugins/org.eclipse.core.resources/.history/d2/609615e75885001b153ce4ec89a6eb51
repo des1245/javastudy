@@ -1,0 +1,10 @@
+package quiz10;
+
+public class Lecture {
+
+	String[] name= new String[];
+	
+	public Lecture() {
+		
+	}
+}

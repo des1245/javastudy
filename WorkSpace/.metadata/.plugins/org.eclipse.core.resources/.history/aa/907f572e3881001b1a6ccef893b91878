@@ -1,0 +1,11 @@
+package ex01_random;
+
+public class Ex02_Math {
+//수학의 math클래스는  사용법을 많이 공부해두기! 주로 많이 사용하기 때문이다.
+	public static void main(String[] args) {
+		
+		//java.lang.Math 임폴트가 필요없는 기본클래스
+		System.out.println(Math.random()); //더블타입 랜덤으로 그 생성되는 0.0<=Math.random()<1.0의 결과가 나온다.
+		
+	}
+}

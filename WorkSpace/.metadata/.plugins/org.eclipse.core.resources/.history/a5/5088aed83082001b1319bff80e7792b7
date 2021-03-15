@@ -1,0 +1,21 @@
+package ex03_overloading;
+
+import java.awt.Rectangle;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		//직사각형을 만들어 봅니다.
+		Rectangle nemo1 = new Rectangle();
+		
+		nemo1.set(3,4); //너비3,높이4
+		//넓이 - 높이 | 를 호출해서 
+		System.out.println("넓이:"+nemo1.getArea());
+		
+		//정사각형을 만들어 봅시다.
+		Rectangle nemo2 =new Rectangle();
+		nemo2.set(3,3);
+		
+	}
+}

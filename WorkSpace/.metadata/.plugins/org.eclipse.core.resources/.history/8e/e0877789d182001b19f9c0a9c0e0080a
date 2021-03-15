@@ -1,0 +1,14 @@
+package ex07_recursive;
+
+public class Adder {
+	
+	private int total; //0입니다.
+	
+	public void calculate(int n) {
+		if(n==0) {
+			//0같으면 세미 클론만 붙어있음 기본적인 재약 조건 void인 경우에만 사용할수 있다.
+		}
+		total += n;
+		calculate(n-1);
+	}
+}

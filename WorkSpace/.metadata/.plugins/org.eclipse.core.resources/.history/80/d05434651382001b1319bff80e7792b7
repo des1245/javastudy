@@ -1,0 +1,19 @@
+package quiz01;
+
+public class Book {
+	
+	String title;
+	String writer;
+	int price;
+	int stock;
+	
+	/*
+	풀다가 말은것
+	String B_name;
+	char B_name1;
+	int B_price;
+	int B_Book;
+	double B_date;
+	boolean B_best;
+	*/
+}

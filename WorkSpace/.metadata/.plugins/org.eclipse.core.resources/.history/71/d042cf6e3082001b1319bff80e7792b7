@@ -1,0 +1,12 @@
+package ex03_overloading;
+
+import java.awt.Rectangle;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		//직사각형을 만들어 봅니다.
+		Rectangle nemo1 = new Rectangle();
+	}
+}

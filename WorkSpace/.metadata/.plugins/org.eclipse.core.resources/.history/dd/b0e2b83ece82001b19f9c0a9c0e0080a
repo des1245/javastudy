@@ -1,0 +1,17 @@
+package ex06_access;
+
+public class Note2 {
+
+	public static void main(String[] args) {
+		
+		Note1 p =new Note1();
+		
+		p.setA("음냐");
+		p.setNum(10);
+		p.setNum1(100);
+		
+		System.out.println("이름:"+p.getA());
+		System.out.println("나이:"+p.getNum());
+		System.out.println("숫자:"+p.getNum1());
+	}
+}

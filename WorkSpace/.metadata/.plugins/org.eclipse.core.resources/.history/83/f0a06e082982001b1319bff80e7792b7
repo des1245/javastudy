@@ -1,0 +1,8 @@
+package Quiz02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+	Calculator calc;	//객채가 없고 참조변수만 만든상태
+	}
+}

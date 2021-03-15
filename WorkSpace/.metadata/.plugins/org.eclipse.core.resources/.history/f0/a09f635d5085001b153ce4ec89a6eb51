@@ -1,0 +1,60 @@
+package quiz10;
+
+public class Student {
+
+	//field
+	private String name;
+	private int[] sores;	//점수들
+	private double average;	//평균
+	private char grade;	//학점(A~F)
+	private boolean isPass;	//합격유무(평균 60이상 "합격")
+	
+	//constructor
+	public Student(String name) {
+		this.name =name;
+	}
+	//method
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int[] getSores() {
+		return sores;
+	}
+
+	public void setSores(int[] sores) {
+		this.sores = sores;
+	}
+
+	public double getAverage() {
+		return average;
+	}
+
+	public void setAverage(double average) {
+		this.average = average;
+	}
+
+	public char getGrade() {
+		return grade;
+	}
+
+	public void setGrade(char grade) {
+		this.grade = grade;
+	}
+
+	public boolean isPass() {
+		return isPass;
+	}
+
+	public void setPass(boolean isPass) {
+		this.isPass = isPass;
+	}
+	public void info() {
+		System.out.println("이름:"+name);
+	}
+}

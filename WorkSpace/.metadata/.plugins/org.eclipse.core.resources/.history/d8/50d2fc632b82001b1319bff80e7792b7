@@ -1,0 +1,20 @@
+package Quiz03;
+
+public class Student {
+	
+	String name;
+	int num;
+	int num1;
+	int num2;
+	int num3;
+	
+	void set(String n,int a,int b,int c){
+		name = n;
+		num =a;
+		num1=b;
+		num2=c;
+	}
+	int getAverage(int a,int b,int c,int d) {
+		return d=a+b+c;	
+	}
+}

@@ -1,0 +1,9 @@
+package ex01_random;
+//랜덤에서 게임으로 활용할때도 있음
+
+public class Ex01_Random {
+
+	public static void main(String[] args) {
+		
+	}
+}

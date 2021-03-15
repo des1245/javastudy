@@ -1,0 +1,14 @@
+package quiz01;
+
+public class Watch {
+	private int hour;
+	private int minute;
+	private int second;
+	
+	//constructor
+	public Watch(int hour, int minute,int second) {
+		
+	}
+	
+	//25
+}

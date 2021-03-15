@@ -1,0 +1,10 @@
+package ex07_recursive;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		SayHello sh= new SayHello(int n);
+		//메소드 헬로 반복적으로 된것을 안뻗으게 해줘야한다.
+		say(5);
+	}
+}

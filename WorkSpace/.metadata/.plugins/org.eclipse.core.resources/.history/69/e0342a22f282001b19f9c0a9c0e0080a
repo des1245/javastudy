@@ -1,0 +1,16 @@
+package quiz04;
+
+public class Gun {
+	private String model;
+	private int bullet;
+	private final int FULL_BULLET=6;
+	
+	public Gun() {
+		this.model =model;
+		this.bullet =bullet;
+	}
+	public shoot(int FULL_BULLET) {
+		this.FULL_BULLET =FULL_BULLET;
+		
+	}
+}

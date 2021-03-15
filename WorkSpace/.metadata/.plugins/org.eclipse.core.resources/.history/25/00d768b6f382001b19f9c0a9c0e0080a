@@ -1,0 +1,18 @@
+package quiz04;
+
+public class Gun {
+	
+	//field
+	private String model;
+	private int bullet;
+	private final int FULL_BULLET=6;
+	
+	//construct(생성자)
+	public Gun(String model,int bullet) { //Gun gun =new Gun("K2",2); 인수 전달
+		this.model =model; //모델 K2
+		this.bullet =bullet; //2발
+		this.FULL_BULLET =FULL_BULLET;
+	}
+	
+	
+}

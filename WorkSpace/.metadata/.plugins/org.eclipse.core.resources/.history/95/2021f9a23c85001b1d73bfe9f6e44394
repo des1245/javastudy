@@ -1,0 +1,24 @@
+package quiz09;
+
+public class Gun {
+	
+	//field
+	//총기모델
+	//들어가는 총알
+	private String model;
+	private int bullet;
+	private final int FULL_BULLET=6;
+	
+	//constructor
+	public Gun(String model,int bullet) {
+		this.model=model;
+		this.bullet = bullet;
+	}
+	//method
+	public void shoot() { //총알 점검
+		if(bullet>0) {
+			System.out.println("");//총알이 있으면 빵야 아니면 총알이 남았다.
+		}
+	}
+	
+}

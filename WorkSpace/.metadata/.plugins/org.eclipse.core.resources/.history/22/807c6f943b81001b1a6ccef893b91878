@@ -1,0 +1,13 @@
+package ex02_2d_array;
+
+import java.util.Scanner;
+
+public class Note1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+	}
+}

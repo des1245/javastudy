@@ -1,0 +1,10 @@
+package quiz06;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Bakery bakery1 =new Bakery(100,1000,10000);
+		//빵100개,가격1000원,자본금10000원
+	}
+
+}

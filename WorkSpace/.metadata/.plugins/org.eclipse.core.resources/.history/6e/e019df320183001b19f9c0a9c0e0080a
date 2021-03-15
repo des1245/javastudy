@@ -1,0 +1,9 @@
+package Note1;
+
+public class Note1 {
+	private String name;
+	private int age;
+	private double a;
+	
+	
+}

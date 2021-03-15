@@ -1,0 +1,10 @@
+package quiz07;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Game game = new Gmae(2); //player가 2명
+		game.setplayer(); //player 세팅
+		game.play(); //game시작
+	}
+}

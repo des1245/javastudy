@@ -1,0 +1,7 @@
+package Quiz05;
+
+public class Circle {
+	
+	//field
+	double radius; //반지름
+}

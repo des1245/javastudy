@@ -1,0 +1,22 @@
+package Quiz04;
+
+public class Book {
+	String name;
+	String name1;
+	int price;
+	void set(String n,String n1,int p) {
+		if(n.equals("어린왕자")&&n.equals("소나기")||n.equals("홍길동전")) {
+			name =n;
+		}if(n1.equals("샛텍쥐베리")||n1.equals("황순원")||n1.equals("미상")) {
+			name1=n1;
+		}if(p<=10000) {
+			price=p;
+		}
+	}
+	void set(String n, String n1) {
+		set(n,n1);
+	}
+	void set(String n,int p) {
+		set(n,"미상",p);
+	}
+}

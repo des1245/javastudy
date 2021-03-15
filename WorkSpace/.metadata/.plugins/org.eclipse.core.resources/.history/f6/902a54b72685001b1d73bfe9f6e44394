@@ -1,0 +1,14 @@
+package quiz06;
+
+public class BreadAndChange {
+//빵이랑 잔돈 저장할수있는 체인지
+	//field
+	private int bread;
+	private int change;
+	
+	//constructor
+	public BreadAndChange(int bread.int chage) {
+		
+	}
+	
+}

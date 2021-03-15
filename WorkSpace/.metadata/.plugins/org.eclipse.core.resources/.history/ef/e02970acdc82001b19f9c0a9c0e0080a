@@ -1,0 +1,10 @@
+package quiz02;
+
+//좌표 x랑 y
+public class Coord {
+	
+	//field
+	private int x;
+	pri
+
+}

@@ -1,0 +1,8 @@
+package Quiz06;
+
+public class Book {
+	
+	String  name;
+	String  wri;
+	int pri;
+}

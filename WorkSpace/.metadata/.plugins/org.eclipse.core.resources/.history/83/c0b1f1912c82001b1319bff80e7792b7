@@ -1,0 +1,23 @@
+package Quiz03;
+
+public class Student {
+	
+	//field
+	String name;
+	int kor,eng,mat;
+	
+	//method
+	void set(String n,int k,int e,int m) {
+		name=n;
+		kor =k;
+		eng =e;
+		mat =m;
+	}
+	double getAverage() { //전달이 없으니 저장할것두 없다.
+	return (kor+eng+mat)/3.0;
+	}
+	//겟 어비리즈 에서 합한것을 아래로 출력 전달 할수 있다.
+	double getPass() {
+		return getAverage()>=60 ? "합격":"불합격";
+	}
+}

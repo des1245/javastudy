@@ -1,0 +1,11 @@
+package Quiz04;
+
+public class Book {
+	String name;
+	String name1;
+	int price;
+	
+	void set(int n) {
+		set(n,n,n);
+	}
+}

@@ -1,0 +1,12 @@
+package Quiz02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+	Calculator calc;	//객채가 없고 참조변수만 만든상태
+	
+	//객체를 만드는 명령은 "new" 입니다.
+	
+	calc =new Calculator(); //이때 객체가 만들어진다.
+	}
+}

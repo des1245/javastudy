@@ -1,0 +1,16 @@
+package quiz10;
+
+public class Lecture {
+
+	private String name;
+	private Student setSores;
+	int idx;
+	
+	public Lecture(String name,Student setSores) {
+		this.name = name;
+		this.setSores = setSores;
+	}
+	public void exam(Student setSores) {
+		
+	}
+}

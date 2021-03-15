@@ -1,0 +1,11 @@
+package quiz03;
+
+public class Song {
+	
+	//field
+	private String title;
+	private double playTime;
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package ex03_api;
+
+public class Note1 {
+
+	public static void main(String[] args) {
+		long imtestamp =System.currentTimeMillis();
+		
+		long something =System.nanoTime();
+		System.out.println(something);
+		
+		int[] a= {1,2,3,4,5};
+		int[] b= new int[10];
+		
+		System.out.println(a,0,b,0,a.length);
+	}
+}

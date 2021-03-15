@@ -1,0 +1,10 @@
+package quiz04;
+
+public class Soldier { 
+	//두번재는 이름하고 총을 가지고있다. 
+	private Gun gun;
+	
+	public void shoot(Gun gun,int FULL_) {
+		
+	}
+}

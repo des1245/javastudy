@@ -1,0 +1,10 @@
+package ex07_recursive;
+
+public class Adder {
+	
+	private int total; //0입니다.
+	
+	public void calculate(int n) {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package quiz04;
+
+public class Soldier { 
+	//두번재는 이름하고 총을 가지고있다. 
+	private Gun gun;
+	private String name;
+	
+	//constructor
+	public Soldier(String name,Gun gun) {
+	//현재 군인에 이름 받아오기
+	}
+}

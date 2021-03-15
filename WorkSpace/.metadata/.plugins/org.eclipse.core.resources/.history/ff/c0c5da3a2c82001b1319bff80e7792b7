@@ -1,0 +1,18 @@
+package Quiz03;
+
+public class Student {
+	
+	//field
+	String name;
+	int kor,eng,mat;
+	
+	//method
+	void set(String n,int k,int e,int m) {
+		name=n;
+		kor =k;
+		eng =e;
+		mat =m;
+	}
+	double getAverage() { //전달이 없으니 저장할것두 없다.
+	}
+}

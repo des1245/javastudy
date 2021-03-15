@@ -1,0 +1,11 @@
+package quiz10;
+
+public class Lecture {
+
+	private String[] name;
+	private Student setScores
+	
+	public Lecture(String name,) {
+		
+	}
+}

@@ -1,0 +1,11 @@
+package Quiz03;
+
+public class Student {
+	
+	//field
+	String name;
+	int kor,eng,mat;
+	
+	//method
+	
+}

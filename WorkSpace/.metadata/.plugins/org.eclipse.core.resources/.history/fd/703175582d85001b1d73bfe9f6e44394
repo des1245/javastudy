@@ -1,0 +1,32 @@
+package quiz07;
+
+import java.util.Scanner;
+
+public class Player {
+	
+	//field
+	private String name;
+	private Scanner sc =new Scanner(System.in);
+	
+	//construct
+	public Player(String name) {
+		this.name =name;
+	}
+	//method
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int play() { //몇초 경과되었다. 플레이 했을때
+	System.out.println(name+"'s game start!"); 
+	System.out.println("Press Enter!"); //엔터쓰겠다면 스캐너 필요
+	// Enter입력: nextLine(); 엔터만 입력받아서 엔터를 어디에 저장하는것두 아니다.
+	sc.nextLine();
+	long start =System.currentTimeMillis();
+	
+	}
+}
